@@ -5,13 +5,17 @@ html, body
 	height: 100%;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
-	color: #222;
+	color: #FFFFFF;
+	background-color: #1F1F1F;
 }
-
+.card-body
+{
+	background-color: #2B4E91;
+}
 .navbar
 {
-	padding: .8rem;
-
+	padding: .5rem;
+	padding-left: .7rem; 
 }
 .navbar-nav li
 {
@@ -47,16 +51,22 @@ html, body
 }
 .btn-primary
 {
-	background-color: #6648b1;
-	border: 1px solid #6648b1;
+	background-color: #2B4E91;
+	border: 1px solid #2B4E91;
 }
 .btn-primary:hover
 {
-	background-color: #563d7c;
-	border: 1px solid #563d7c;	
+	background-color: #003B5B;
+	border: 1px solid #003B5B;	
+}
+.btn-outline-secondary
+{
+	border: 2px solid #000000;
+	color: #000000;
 }
 .jumbotron
 {
+	background-color: #2B4E91;
 	padding: 1rem;
 	border-radius: 0;
 }
@@ -89,9 +99,19 @@ html, body
 {
 	color: #2163af;
 }
-.fa-code, .fa-bold, .fa-css3
+.fa-code, .fa-bold, .fa-css3 
 {
 	font-size: 4em;
+	margin: 1rem;
+}
+.devicon-python-plain, .devicon-cplusplus-line, .devicon-java-plain
+{
+	font-size: 5em;
+	margin: 1rem;
+}
+.devicon-nodejs-plain-wordmark, .devicon-javascript-plain
+{
+	font-size: 7em;
 	margin: 1rem;
 }
 .fun
@@ -122,7 +142,7 @@ html, body
 }
 .fa-github
 {
-	color: #517fa4;
+	color: #6C2B9A;
 }
 .fa-youtube
 {
@@ -135,7 +155,7 @@ html, body
 }
 footer
 {
-	background-color: #3f3f3f;
+	background-color: #130128;
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
@@ -157,7 +177,31 @@ hr.light-100
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 }
-
+hr.my-4
+{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+.about-content
+{
+	max-width:980px;
+	margin:auto;
+}
+.about-center .about-bar
+{
+	display:inline-block;
+	width:auto;
+}
+.about-center
+{
+	text-align:center;
+}
+.about-center
+{
+	text-align:center!important;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) 
