@@ -5,7 +5,7 @@ html, body
 	height: 100%;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
-	color: #FFFFFF;
+	color: #F3F3F3;
 	background-color: #1F1F1F;
 }
 .card-body
@@ -61,8 +61,14 @@ html, body
 }
 .btn-outline-secondary
 {
-	border: 2px solid #000000;
+	border: 1.5px solid #000000;
 	color: #000000;
+}
+.btn-outline-secondary:hover
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 1.5px solid #000000;
 }
 .jumbotron
 {
